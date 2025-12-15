@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-console.log('changed sth');
-=======
-<<<<<<< Updated upstream
-=======
 export function add(a, b) {
 	return a + b;
 }
@@ -18,5 +13,3 @@ export function capitalize(s) {
 
 // keep a simple default export for compatibility
 export default { add, isEven, capitalize };
->>>>>>> Stashed changes
->>>>>>> Stashed changes
