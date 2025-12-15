@@ -1,9 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest"
   },
-  "dependencies": {
-    "eslint": "^9.39.2"
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "vitest": "^4.0.15"
   }
 }
