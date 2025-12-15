@@ -1,1 +1,1 @@
-console.log("changed sth")
+console.log('changed sth');
