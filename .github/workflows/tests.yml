@@ -1,8 +1,9 @@
 name: Run unit tests
 
 on:
-  pull_request:
-    branches: [ main ]
+  workflow_run:
+    workflows: ["pr-lint.yml"]
+    types: [completed]
 
 jobs:
   test:
